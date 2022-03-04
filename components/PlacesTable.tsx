@@ -1,12 +1,14 @@
 import { Box, SimpleGrid } from "@chakra-ui/react";
 
+const placeholders = Array(4).fill("Placeholder")
+
 function PlacesTable() {
+	// TODO: Implement 
 	return (
 		<SimpleGrid columns={2}>
-			<Box textAlign='center'>Placeholder 1</Box>
-			<Box textAlign='center'>Placeholder 2</Box>
-			<Box textAlign='center'>Placeholder 3</Box>
-			<Box textAlign='center'>Placeholder 4</Box>
+			{placeholders.map((p, i) =>
+				<Box borderBottom='2px' borderColor='gray.300' textAlign='center' key={i}>Placeholder 1</Box>
+			)}
 		</SimpleGrid>
 	)
 }
