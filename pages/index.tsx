@@ -12,8 +12,9 @@ const Home: NextPage = () => {
         <title>Spyfall Yeah</title>
       </Head>
       <Container mx='auto' py={8}>
-        <Heading mb={4} textAlign='center' as='h1'>Spyfall</Heading>
-        <Play />
+        <Heading mb={2} textAlign='center' as='h1'>Spyfall</Heading>
+        <Heading mb={4} textAlign='center' as='h2' color='red.600'>NOT PLAYABLE YET</Heading>
+        <CreateGame />
       </Container>
     </>)
 }
