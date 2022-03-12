@@ -1,0 +1,27 @@
+{
+	"school": [
+		"Student",
+		"Janitor",
+		"Science Teacher",
+		"Principal"
+	],
+	"hospital": [
+		"Doctor",
+		"Nurse",
+		"Patient",
+		"Maintainece Guy",
+		"Thief"
+	],
+	"hotel": [
+		"Guest",
+		"Receptionist",
+		"Business Man",
+		"Chef"
+	],
+	"prison": [
+		"Prisoner",
+		"Guard",
+		"Cook",
+		"Sniper"
+	]
+}
